@@ -2,8 +2,8 @@ import React from 'react'
 import './Discoverblog.css'
 import '../../../App.css'
 import {Link} from 'react-router-dom'
-import userImg from '../../../img/userImg.jpg'
-import blogImg from '../../../img/blogImg.jpg'
+import defaultProductimg from '../../../img/defaultproductimg.JPG'
+import defaultUserimg from '../../../img/defaultUserImg.JPG'
 import {BiRightArrow} from'react-icons/bi'
 import {FiThumbsUp} from 'react-icons/fi'
 import {AiFillEye} from 'react-icons/ai'
@@ -19,7 +19,7 @@ function DiscoverPage() {
                     <div className='item-blog'>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>very long blog title might show in ellipsis</Link>
@@ -27,7 +27,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -35,7 +35,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -43,7 +43,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -51,7 +51,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -59,7 +59,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -67,7 +67,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog box-alter'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -75,7 +75,7 @@ function DiscoverPage() {
                         </div>
                         <div className='box-blog box-alter'>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>
                             <Link className='link story-title-blog' to='/'>blog title</Link>
@@ -100,10 +100,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>very long blog title might show in ellipsis</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -123,10 +123,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -146,10 +146,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -169,10 +169,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -192,10 +192,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -215,10 +215,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>
@@ -238,10 +238,10 @@ function DiscoverPage() {
                             <Link className='link main-story-title' to='/'>blog title</Link>
                             <p className="content">Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,Lorem Ipsum is simply dummy text of the printing and typesetting industry.Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, </p>
                             <div className='blog-img-container-blog'>
-                                <img className='blog-img-blog' src={blogImg} alt='blog-img'/>
+                                <img className='blog-img-blog' src={defaultProductimg} alt='blog-img'/>
                             </div>
                             <div className='user-img-container-blog'>
-                                <img className='user-img-blog' src={userImg} alt='user-img'/>
+                                <img className='user-img-blog' src={defaultUserimg} alt='user-img'/>
                             </div>
                             <Link className='link user-name-blog' to='/'>user name</Link>   
                             <Link className='link story-date-blog' to='/'>Jan 01</Link>

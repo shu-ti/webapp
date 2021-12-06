@@ -2,8 +2,8 @@ import React from 'react'
 import './Discoverlist.css'
 import '../../../App.css'
 import {Link} from 'react-router-dom'
-import userImg from '../../../img/userImg.jpg'
-import blogImg from '../../../img/blogImg.jpg'
+import defaultUserImg from '../../../img/defaultUserImg.JPG'
+import defaultproductimg from '../../../img/defaultproductimg.JPG'
 import {BiRightArrow} from'react-icons/bi'
 
 function DiscoverList() {
@@ -18,11 +18,37 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>very long product name might show in ellipsis</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
+                                </div>
+                                <Link className='link user-name' to='/'>user name</Link>
+                                <div className='cost'>$100</div>
+                            </div>
+                        </div>
+                        <div className='box'>
+                            <Link className='link product-title' to='/'>product name</Link>
+                            <div className='product-img-containter'>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
+                            </div>
+                            <div className='subbox'>
+                                <div className='user-img-container'>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
+                                </div>
+                                <Link className='link user-name' to='/'>user name</Link>
+                                <div className='cost'>$100</div>
+                            </div>
+                        </div>
+                        <div className='box'>
+                            <Link className='link product-title' to='/'>product name</Link>
+                            <div className='product-img-containter'>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
+                            </div>
+                            <div className='subbox'>
+                                <div className='user-img-container'>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -35,7 +61,7 @@ function DiscoverList() {
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -48,7 +74,7 @@ function DiscoverList() {
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -61,7 +87,7 @@ function DiscoverList() {
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -74,7 +100,7 @@ function DiscoverList() {
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -87,33 +113,7 @@ function DiscoverList() {
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
-                                </div>
-                                <Link className='link user-name' to='/'>user name</Link>
-                                <div className='cost'>$100</div>
-                            </div>
-                        </div>
-                        <div className='box'>
-                            <Link className='link product-title' to='/'>product name</Link>
-                            <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
-                            </div>
-                            <div className='subbox'>
-                                <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
-                                </div>
-                                <Link className='link user-name' to='/'>user name</Link>
-                                <div className='cost'>$100</div>
-                            </div>
-                        </div>
-                        <div className='box'>
-                            <Link className='link product-title' to='/'>product name</Link>
-                            <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
-                            </div>
-                            <div className='subbox'>
-                                <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -137,11 +137,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>very long product name might show in ellipsis</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -150,11 +150,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -163,11 +163,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -176,11 +176,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -189,11 +189,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -202,11 +202,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -215,11 +215,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='product-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='product-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>
@@ -228,11 +228,11 @@ function DiscoverList() {
                         <div className='box'>
                             <Link className='link product-title' to='/'>product name</Link>
                             <div className='product-img-containter'>
-                                <img className='product-img' src={blogImg} alt='blog-img'/>
+                                <img className='product-img' src={defaultproductimg} alt='blog-img'/>
                             </div>
                             <div className='subbox'>
                                 <div className='user-img-container'>
-                                    <img className='user-img' src={userImg} alt='user-img'/>
+                                    <img className='user-img' src={defaultUserImg} alt='user-img'/>
                                 </div>
                                 <Link className='link user-name' to='/'>user name</Link>
                                 <div className='cost'>$100</div>

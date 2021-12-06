@@ -28,12 +28,10 @@ const App=() => {
   <>
     <Router>
       <Switch>
-        <RouterWithNav1 path='/' exact component={Home}/>
+        <RouterWithNav1 path='/' exact component={Discover}/>
         <RouterWithNav1 path='/signup' extact component={Signup}/>
         <RouterWithNav1 path='/signin' extact component={Signin}/>
         <RouterWithNav1 path='/about' extact component={About}/>
-
-        <RouterWithNav2 path='/discover' exact component={Discover}/>
         <RouterWithNav2 path='/discoverlist' exact component={iList}/>
         <RouterWithNav2 path='/personHome' extact component={PersonHome}/>
       </Switch>
